@@ -1,0 +1,6 @@
+framework module Pods_Fundtastic {
+  umbrella header "Pods-Fundtastic-umbrella.h"
+
+  export *
+  module * { export * }
+}
