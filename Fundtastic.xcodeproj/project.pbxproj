@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3ADF0727689ACC0001C179 /* CategoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3ADF0627689ACC0001C179 /* CategoryInterface.swift */; };
 		0A9A3D18275DAC45003682BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D17275DAC45003682BB /* AppDelegate.swift */; };
 		0A9A3D1A275DAC45003682BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D19275DAC45003682BB /* SceneDelegate.swift */; };
 		0A9A3D1F275DAC45003682BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A3D1D275DAC45003682BB /* Main.storyboard */; };
@@ -17,7 +18,6 @@
 		0A9A3D3B275DC722003682BB /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D3A275DC722003682BB /* NetworkAPI.swift */; };
 		0A9A3D3D275DC765003682BB /* ConfigKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D3C275DC765003682BB /* ConfigKey.swift */; };
 		0A9A3D3F275DD6D0003682BB /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D3E275DD6D0003682BB /* NewsViewController.swift */; };
-		0A9A3D42275DDA82003682BB /* CategoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D41275DDA82003682BB /* CategoryInterface.swift */; };
 		0A9A3D44275DDAB2003682BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D43275DDAB2003682BB /* NetworkManager.swift */; };
 		0A9A3D47275DDB00003682BB /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D46275DDB00003682BB /* CategoryModel.swift */; };
 		0A9A3D4B275DE679003682BB /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9A3D49275DE679003682BB /* NewsTableViewCell.swift */; };
@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		0517203E7543268D7BA40F16 /* Pods-Fundtastic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fundtastic.debug.xcconfig"; path = "Target Support Files/Pods-Fundtastic/Pods-Fundtastic.debug.xcconfig"; sourceTree = "<group>"; };
+		0A3ADF0627689ACC0001C179 /* CategoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInterface.swift; sourceTree = "<group>"; };
 		0A9A3D14275DAC45003682BB /* Fundtastic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fundtastic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9A3D17275DAC45003682BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A9A3D19275DAC45003682BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		0A9A3D3A275DC722003682BB /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
 		0A9A3D3C275DC765003682BB /* ConfigKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigKey.swift; sourceTree = "<group>"; };
 		0A9A3D3E275DD6D0003682BB /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		0A9A3D41275DDA82003682BB /* CategoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryInterface.swift; path = ../../../../../../../../../Applications/CategoryInterface.swift; sourceTree = "<group>"; };
 		0A9A3D43275DDAB2003682BB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0A9A3D46275DDB00003682BB /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		0A9A3D49275DE679003682BB /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		0A9A3D40275DDA64003682BB /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				0A9A3D41275DDA82003682BB /* CategoryInterface.swift */,
+				0A3ADF0627689ACC0001C179 /* CategoryInterface.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -280,8 +280,8 @@
 				0A9A3D44275DDAB2003682BB /* NetworkManager.swift in Sources */,
 				0A9A3D4B275DE679003682BB /* NewsTableViewCell.swift in Sources */,
 				0A9A3D2E275DB7FF003682BB /* HomeVC.swift in Sources */,
-				0A9A3D42275DDA82003682BB /* CategoryInterface.swift in Sources */,
 				0A9A3D47275DDB00003682BB /* CategoryModel.swift in Sources */,
+				0A3ADF0727689ACC0001C179 /* CategoryInterface.swift in Sources */,
 				0A9A3D3B275DC722003682BB /* NetworkAPI.swift in Sources */,
 				0A9A3D18275DAC45003682BB /* AppDelegate.swift in Sources */,
 				0A9A3D51275E3D39003682BB /* WebViewController.swift in Sources */,
